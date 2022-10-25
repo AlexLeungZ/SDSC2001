@@ -153,3 +153,8 @@ cython_debug/
 
 # Notes
 *.pdf
+
+# VS code
+.vscode/
+**/testbook.*
+**/my_figure.*

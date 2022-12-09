@@ -152,9 +152,10 @@ cython_debug/
 #.idea/
 
 # Notes
-*.pdf
+*.pdf…
 
 # VS code
 .vscode/
 **/testbook.*
 **/my_figure.*
+**/*private.*

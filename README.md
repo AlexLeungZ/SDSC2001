@@ -1,14 +1,22 @@
 # SDSC2001 Python for Data Science
 
-## Setting up running environment (with conda)
+SDSC2001 Notes and Tutorials
+
+## Description
+
+Notes and Tutorials for CityU SDSC2001.
+
+## Getting Started
+
+### Dependencies
+
+1. Python
+   * Python 3.9+
+   * Jupyter notebook with python kernel
+   * Package management: conda or mamba
+   * Library: pandas, numpy, seaborn, matplotlib, sklearn
 
 ### Install Conda or mamba (mini-conda)
-
-### Set up for conda-forge
-
-```bash
-conda config --add channels conda-forge
-```
 
 ### Set up conda environment
 
@@ -17,9 +25,13 @@ conda create -n 2001
 conda activate 2001
 ```
 
-### Install package (mamba is recommended)
+### Installing
+
+* Install with conda or mamba
+* Install required library
 
 ```bash
+# conda or mamba
 conda install -c conda-forge Jupyter ipykernel
 conda install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 ```

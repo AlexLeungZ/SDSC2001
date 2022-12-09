@@ -159,3 +159,4 @@ cython_debug/
 **/testbook.*
 **/my_figure.*
 **/*private.*
+environment.yml
